@@ -4,6 +4,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import CardActionArea from '@mui/material/CardActionArea';
+import image from '../../public/image.png'
 export default function ActionAreaCard(props) {
   return (
     <Card sx={{ maxWidth: 345 }} style = {{background: 'none' , color: 'white' , padding: '20px 0 0'}}>
@@ -11,7 +12,7 @@ export default function ActionAreaCard(props) {
         <CardMedia
           component="img"
           height="140"
-          image="../../public/image.png"
+          image= {image}
           alt="green iguana"
         />
         <CardContent>
